@@ -14,26 +14,5 @@ A machine learning web application that classifies IMDB movie reviews as **posit
 
 ---
 
-## 🗂️ Project Structure
 
-📦 sentiment-analysis-imdb
-├── app.py # Flask backend
-├── IMDB Review.ipynb # Model training notebook
-├── Test.csv # Sample dataset
-├── sentiment_model.pkl # Trained logistic regression model
-├── tfidf_vectorizer.pkl # TF-IDF vectorizer
-└── templates/
-└── index.html # Web UI for user input
 
-yaml
-Copy
-Edit
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone git@github.com:jayeshtupkar15/sentiment-analysis-imdb.git
-cd sentiment-analysis-imdb
