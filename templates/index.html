@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 40px; background-color: #f5f5f5; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        input[type=text], textarea {
+            width: 100%; padding: 10px; margin-top: 10px;
+            border: 1px solid #ccc; border-radius: 5px;
+        }
+        input[type=submit] {
+            padding: 10px 20px; margin-top: 20px;
+            background-color: #28a745; color: white;
+            border: none; border-radius: 5px; cursor: pointer;
+        }
+        .result { margin-top: 20px; font-size: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sentiment Analyzer</h2>
+        <form method="POST" action="/predict">
+            <label for="review">Enter your review:</label><br>
+            <textarea name="review" rows="4"></textarea><br>
+            <input type="submit" value="Predict">
+        </form>
+        {% if prediction_text %}
+            <div class="result">{{ prediction_text }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>
