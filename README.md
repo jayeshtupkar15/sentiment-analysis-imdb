@@ -6,20 +6,34 @@ A machine learning web application that classifies IMDB movie reviews as **posit
 
 ## 🔍 Features
 
-- ✅ Clean and responsive Flask-based web interface
-- ✅ Text vectorization using TF-IDF (max 5000 features)
-- ✅ Logistic Regression for binary sentiment classification
-- ✅ Supports real-time input and prediction
-- ✅ Pre-trained model and vectorizer for instant use
+- ✅ Clean and responsive Flask-based web interface  
+- ✅ Text vectorization using TF-IDF (max 5000 features)  
+- ✅ Logistic Regression for binary sentiment classification  
+- ✅ Supports real-time input and prediction  
+- ✅ Pre-trained model and vectorizer for instant use  
 
 ---
 
 ## 🗂️ Project Structure
 
 📦 sentiment-analysis-imdb
-app.py # Flask backend \n
-IMDB Review.ipynb # Model training notebook
-Test.csv # Sample dataset
-sentiment_model.pkl # Trained logistic regression model
-tfidf_vectorizer.pkl # TF-IDF vectorizer
-templates/index.html # Web UI for user input
+├── app.py # Flask backend
+├── IMDB Review.ipynb # Model training notebook
+├── Test.csv # Sample dataset
+├── sentiment_model.pkl # Trained logistic regression model
+├── tfidf_vectorizer.pkl # TF-IDF vectorizer
+└── templates/
+└── index.html # Web UI for user input
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone git@github.com:jayeshtupkar15/sentiment-analysis-imdb.git
+cd sentiment-analysis-imdb
