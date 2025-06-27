@@ -17,7 +17,7 @@ A machine learning web application that classifies IMDB movie reviews as **posit
 ## 🗂️ Project Structure
 
 📦 sentiment-analysis-imdb
-app.py # Flask backend
+app.py # Flask backend \n
 IMDB Review.ipynb # Model training notebook
 Test.csv # Sample dataset
 sentiment_model.pkl # Trained logistic regression model
