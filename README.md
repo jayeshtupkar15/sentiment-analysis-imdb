@@ -16,6 +16,6 @@ A machine learning web application that classifies IMDB movie reviews as **posit
 
 ## 🖼️ Web App Preview
 
-![Sentiment Analysis UI]()
+![Sentiment Analysis UI](Screenshot 2025-06-27 172307.png)
 
 
