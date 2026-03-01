@@ -1,0 +1,1 @@
+run = "python -u app.py"
